@@ -40,13 +40,14 @@ header .icon
 {
     border-radius: 18px;
     height: 72px;
+    border: 6px solid #5693DB;
 }
 
 header h1
 {
     padding-left: 10px;
     position: relative;
-    top: 5px;
+    top: 10px;
     font-size: 3em;
 }
 
@@ -168,12 +169,12 @@ footer img
     }
     header.insert .icon
     {
-        border: 6px solid white;
+        border: 0px solid white;
     }
     header.insert h1
     {
         position: relative;
-        top: 30px;
+        top: 23px;
     }
 
     section#main
