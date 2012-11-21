@@ -9,8 +9,6 @@ header {
   padding-right: 20px;
   text-align: center;
   color: #5693db; }
-  header insert {
-    display: none; }
   header .icon,
   header h1 {
     display: inline-block;
@@ -27,6 +25,9 @@ header {
     position: relative;
     top: 10px;
     font-size: 3em; }
+
+header.insert {
+  display: none; }
 
 section#main {
   position: relative;
@@ -121,7 +122,7 @@ footer {
     display: inline-block;
     position: relative;
     top: -100px;
-    height: 560px;
+    height: 648px;
     vertical-align: middle;
     padding: 0px;
     text-align: left; }
@@ -133,7 +134,7 @@ footer {
 
   section#features {
     padding-left: 20px;
-    top: 20px; }
+    top: 64px; }
     section#features h2 {
       text-align: left; }
     section#features a {
@@ -153,15 +154,15 @@ footer {
     margin-bottom: 0px; }
 
   section#screenshots {
-    top: 60px; }
+    top: 88px; }
     section#screenshots img {
       width: 220px; } }
 @media all and (min-width: 800px) and (max-width: 900px) {
   section#main {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0px; }
 
   section#screenshots {
-    top: 40px; }
+    top: 58px; }
     section#screenshots img {
       width: 250px; } }

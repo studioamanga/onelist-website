@@ -17,11 +17,6 @@ header
   padding-right:20px;
   text-align:center;
   color: $blue;
- 
-  insert
-  {
-    display: none;
-  }
   
   .icon,
   h1
@@ -47,6 +42,11 @@ header
     top: 10px;
     font-size: 3em;
   }
+}
+
+header.insert
+{
+  display: none;
 }
 
 section#main
@@ -196,7 +196,7 @@ footer
     display: inline-block;
     position: relative;
     top: -100px;
-    height: 560px;
+    height: 560 + 88px;
     vertical-align: middle;
     padding: 0px;
     text-align: left;
@@ -214,7 +214,7 @@ footer
   section#features
   {
     padding-left: 20px;
-    top:20px;
+    top:20+44px;
     
     h2
     {
@@ -248,7 +248,7 @@ footer
   }
   section#screenshots
   {
-    top: 60px;
+    top: 88px;
         
     img
     {
@@ -261,13 +261,13 @@ footer
 {
   section#main
   {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 0px;
   }
     
   section#screenshots
   {
-    top: 40px;
+    top: 58px;
         
     img
     {
