@@ -25,9 +25,8 @@ header {
     position: relative;
     top: 10px;
     font-size: 3em; }
-
-header.insert {
-  display: none; }
+  header.insert {
+    display: none; }
 
 section#main {
   position: relative;
@@ -90,13 +89,20 @@ footer {
   color: #888;
   font-size: 0.8em;
   line-height: 1.2em; }
+  footer a {
+    color: #888;
+    text-decoration: none; }
+    footer a img {
+      opacity: 0.35; }
+    footer a:HOVER {
+      color: #444; }
+      footer a:HOVER img {
+        opacity: 0.6; }
   footer img,
   footer p {
     display: inline-block;
     vertical-align: top;
     margin: 0px; }
-  footer img {
-    opacity: 0.35; }
 
 @media all and (min-width: 700px) {
   header.top {
@@ -121,7 +127,7 @@ footer {
   section#features {
     display: inline-block;
     position: relative;
-    top: -100px;
+    top: -95px;
     height: 648px;
     vertical-align: middle;
     padding: 0px;
@@ -134,7 +140,7 @@ footer {
 
   section#features {
     padding-left: 20px;
-    top: 64px; }
+    top: 60px; }
     section#features h2 {
       text-align: left; }
     section#features a {
@@ -154,15 +160,25 @@ footer {
     margin-bottom: 0px; }
 
   section#screenshots {
-    top: 88px; }
+    top: 40px; }
     section#screenshots img {
-      width: 220px; } }
+      width: 220px; }
+
+  section#features {
+    top: 12px; }
+
+  section#screenshots,
+  section#features {
+    height: 570px; } }
 @media all and (min-width: 800px) and (max-width: 900px) {
   section#main {
     margin-top: 20px;
     margin-bottom: 0px; }
 
   section#screenshots {
-    top: 58px; }
+    top: 56px; }
     section#screenshots img {
-      width: 250px; } }
+      width: 250px; }
+
+  section#features {
+    top: 55px; } }

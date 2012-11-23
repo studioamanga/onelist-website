@@ -3,14 +3,12 @@ $blue: #5693DB;
 $light-blue: #9CC0EA;
 $dark-blue: #488ad8;
 
-body
-{
+body {
   font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
   margin: 0px;
 }
 
-header
-{
+header {
   display: block;
   margin-top: 30px;
   margin-bottom: 20px;
@@ -19,8 +17,7 @@ header
   color: $blue;
   
   .icon,
-  h1
-  {
+  h1 {
     display: inline-block;
     margin: 0px;
     padding: 0px;
@@ -28,29 +25,25 @@ header
     text-rendering: optimizeLegibility;
   }
   
-  .icon
-  {
+  .icon {
     border-radius: 18px;
     height: 72px;
     border: 6px solid $blue;
   }
   
-  h1
-  {
+  h1 {
     padding-left: 10px;
     position: relative;
     top: 10px;
     font-size: 3em;
   }
+  
+  &.insert {
+    display: none;
+  }
 }
 
-header.insert
-{
-  display: none;
-}
-
-section#main
-{
+section#main {
   position: relative;
   margin-top: 100px;
   margin-bottom: 0px;
@@ -59,77 +52,66 @@ section#main
 }
 
 section#screenshots,
-section#features
-{
+section#features {
   position: relative;
   top: -70px;
 }
 
-section#screenshots
-{
+section#screenshots {
   background-clip: content-box;
   text-align: center;
     
-  img
-  {
+  img {
     position: relative;
     width: 300px;
   }  
 }
 
 section#features,
-section.msg
-{
+section.msg {
   padding: 20px;
   line-height: 1.3em;
 }
 
-section.msg a
-{
+section.msg a {
   color: $blue;
 }
 
-section#features
-{
-  h2
-  {
+section#features {
+  h2 {
     font-weight: normal;
     text-align: center;
     margin-bottom: 30px
   }
   
-  ul
-  {
+  ul {
     margin-bottom: 30px;
     list-style: none;
     padding-left: 35px;
       
-    li
-    {
+    li {
       position: relative;
       margin-bottom: 10px;
       
-      img
-      {
+      img {
         position :absolute;
         left: -32px;
         top: 8px;
       }
-      em
-      {
+      
+      em {
         font-style: normal;
         margin-bottom: 30px;
-      }
-      p
-      {
+      } 
+      
+      p {
         margin: 0px;
         font-size: 0.9em;
       }
     }
   }
   
-  a
-  {
+  a {
     position: relative;
     top: 30px;
     display: block;
@@ -137,141 +119,144 @@ section#features
   }
 }
 
-footer
-{
+footer {
   margin-top: 40px;
   margin-bottom: 40px;
   padding: 20px;
   color: #888;
   font-size: 0.8em;
   line-height: 1.2em;
+  
+  a {
+    color: #888;
+    text-decoration: none;
     
+    img {
+      opacity: 0.35;
+    }
+    &:HOVER {
+      color: #444;
+      
+      img {
+        opacity: 0.6;
+      }
+    }
+  }
+  
   img,
-  p
-  {
+  p {
     display: inline-block;
     vertical-align: top;
     margin: 0px;
-  }
-
-  img
-  {
-    opacity: 0.35;
-  }
+  } 
 }
 
-@media all and (min-width: 700px) 
-{
-  header.top
-  {
+@media all and (min-width: 700px) {
+  header.top {
     display: none;
   }
-  header.insert
-  {
+  header.insert {
     display: block;
     color: white;
     text-align: left;
         
-    .icon
-    {
+    .icon {
       border: 0px solid white;
     }
-    h1
-    {
+    h1 {
       position: relative;
       top: 23px;
     }
   }
 
-  section#main
-  {
+  section#main {
     margin-top: 150px;
     margin-bottom: 150px;
     text-align: center;
   }
     
   section#screenshots,
-  section#features
-  {
+  section#features {
     display: inline-block;
     position: relative;
-    top: -100px;
+    top: -95px;
     height: 560 + 88px;
     vertical-align: middle;
     padding: 0px;
     text-align: left;
   }
-  section#screenshots
-  {
+  
+  section#screenshots {
     background-color: transparent;
       
-    img
-    {
+    img {
       width: 395px;
     }
   }
   
-  section#features
-  {
+  section#features {
     padding-left: 20px;
-    top:20+44px;
+    top: 60px;
     
-    h2
-    {
+    h2 {
       text-align: left;
     }
-    a
-    {
+    a {
       top: 0px;
       left: 0px;
       text-align: left;
     }
   }
     
-  footer
-  {
+  footer {
     margin-bottom: 40px;
     text-align: center;
   }
-  footer > *
-  {
+  footer > * {
     text-align: left;
   }
 }
 
-@media all and (min-width: 700px) and (max-width: 800px) 
-{
-  section#main
-  {
+@media all and (min-width: 700px) and (max-width: 800px) {
+  section#main {
     margin-top: 30px;
     margin-bottom: 0px;
   }
-  section#screenshots
-  {
-    top: 88px;
+  
+  section#screenshots {
+    top: 40px;
         
-    img
-    {
+    img {
       width: 220px;
     }
   }
+  
+  section#features {
+    top: 12px;
+  }
+  
+  section#screenshots,
+  section#features {
+    height: 570px;
+  }
 }
 
-@media all and (min-width: 800px) and (max-width: 900px) 
-{
-  section#main
-  {
+@media all and (min-width: 800px) and (max-width: 900px) {
+  section#main {
     margin-top: 20px;
     margin-bottom: 0px;
   }
     
-  section#screenshots
-  {
-    top: 58px;
+  section#screenshots {
+    top: 56px;
         
-    img
-    {
+    img {
       width: 250px;
     }
   }
+  
+  section#features {
+    top: 55px;
+  }
+  
 }
