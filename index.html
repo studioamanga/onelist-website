@@ -23,6 +23,19 @@
           })();
 /* ]]> */
         </script>
+        <script type="text/javascript">
+/* <![CDATA[ */
+        setInterval(alternateScreenshots, 5000);
+        function alternateScreenshots()
+        {
+            screenshot = document.getElementById('screenshothome');
+            if (screenshot.style.opacity == '1')
+                screenshot.style.opacity = '0';
+            else
+                screenshot.style.opacity = '1';
+        }
+/* ]]> */
+        </script>
     </head>
     <body>
         <header class="top">
@@ -31,7 +44,8 @@
         </header>
         <section id="main">
             <section id="screenshots">
-                <img src="img/screen-1-ip4.png" alt="Screenshot" />
+                <img src="img/screen-2-ip5.png" alt="Add Screenshot" />
+                <img src="img/screen-1-ip5.png" alt="Home Screenshot" id="screenshothome" />
             </section>
             <section id="features">
                 <header class="insert">
