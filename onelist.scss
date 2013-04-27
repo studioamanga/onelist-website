@@ -41,6 +41,52 @@ header {
   &.insert {
     display: none;
   }
+  
+  &.general {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 0.9em;
+
+    ul {
+      margin: 0;
+      list-style: none;
+
+      li {
+        display: none;
+
+        a {
+          display: block;
+          padding: 6px 17px 6px 17px;
+          color: white;
+          text-decoration: none;
+          vertical-align: top;
+
+          span, img {
+            display: inline-block;
+            vertical-align: top;
+            height: 22px;
+          }
+          span {
+            position: relative;
+            top: 3px;
+          }
+          img {
+            margin-right: 4px;
+          }
+
+          &:HOVER {
+            background-color: #333;
+          }
+        }
+
+        &:first-child {
+          display: inline-block;
+        }
+      }
+    }
+  }
 }
 
 section#main {
@@ -176,6 +222,13 @@ footer {
     h1 {
       position: relative;
       top: 23px;
+    }
+  }
+  header.general {
+    ul {
+      li {
+        display: inline-block;
+      }
     }
   }
 

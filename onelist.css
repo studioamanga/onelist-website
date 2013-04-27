@@ -27,6 +27,36 @@ header {
     font-size: 3em; }
   header.insert {
     display: none; }
+  header.general {
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 0.9em; }
+    header.general ul {
+      margin: 0;
+      list-style: none; }
+      header.general ul li {
+        display: none; }
+        header.general ul li a {
+          display: block;
+          padding: 6px 17px 6px 17px;
+          color: white;
+          text-decoration: none;
+          vertical-align: top; }
+          header.general ul li a span, header.general ul li a img {
+            display: inline-block;
+            vertical-align: top;
+            height: 22px; }
+          header.general ul li a span {
+            position: relative;
+            top: 3px; }
+          header.general ul li a img {
+            margin-right: 4px; }
+          header.general ul li a:HOVER {
+            background-color: #333; }
+        header.general ul li:first-child {
+          display: inline-block; }
 
 section#main {
   position: relative;
@@ -127,6 +157,9 @@ footer {
     header.insert h1 {
       position: relative;
       top: 23px; }
+
+  header.general ul li {
+    display: inline-block; }
 
   section#main {
     margin-top: 150px;
