@@ -52,7 +52,8 @@ header {
             position: relative;
             top: 3px; }
           header.general ul li a img {
-            margin-right: 4px; }
+            margin-right: 4px;
+            border-radius: 4px; }
           header.general ul li a:HOVER {
             background-color: #333; }
         header.general ul li:first-child {
