@@ -15,8 +15,7 @@ header {
     margin: 0px;
     padding: 0px;
     vertical-align: top;
-    font-weight: normal;
-    text-rendering: optimizeLegibility; }
+    font-weight: normal; }
   header .icon {
     border-radius: 18px;
     height: 72px;
@@ -112,7 +111,7 @@ section#features ul {
       position: absolute;
       left: -40px;
       top: 8px;
-      widows: 28px;
+      width: 28px;
       height: 28px; }
     section#features ul li em {
       font-style: normal;
