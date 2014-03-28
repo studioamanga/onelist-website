@@ -202,7 +202,7 @@ footer {
 
   footer > * {
     text-align: left; } }
-@media all and (min-width: 700px) and (max-width: 800px) {
+@media all and (min-width: 700px) and (max-width: 900px) {
   section#main {
     margin-top: 30px;
     margin-bottom: 0px; }
@@ -214,21 +214,8 @@ footer {
       width: 220px; }
 
   section#features {
-    top: 12px; }
+    top: -17px; }
 
   section#screenshots,
   section#features {
     height: 570px; } }
-@media all and (min-width: 800px) and (max-width: 900px) {
-  section#main {
-    margin-top: 20px;
-    margin-bottom: 0px; }
-
-  section#screenshots {
-    top: 56px;
-    width: 250px; }
-    section#screenshots img {
-      width: 250px; }
-
-  section#features {
-    top: 55px; } }
