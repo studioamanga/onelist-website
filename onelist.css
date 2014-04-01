@@ -126,6 +126,10 @@ section#features a {
   display: block;
   text-align: center; }
 
+.download img {
+  width: 225px;
+  height: 66px; }
+
 footer {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -137,7 +141,8 @@ footer {
     color: #888;
     text-decoration: none; }
     footer a img {
-      opacity: 0.35; }
+      opacity: 0.35;
+      width: 50px; }
     footer a:HOVER {
       color: #444; }
       footer a:HOVER img {
