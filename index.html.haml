@@ -1,0 +1,98 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %title 1List for iPhone, iPad, and Apple Watch
+    %link{:rel => "stylesheet",    :href => "style.css?val", :type => "text/css"}
+    %link{:rel => "shortcut icon", :href => "http://www.studioamanga.com/img/favicon.ico"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/touch-icon-iphone4.png"}
+    %link{:rel => "apple-touch-icon-precomposed", :href => "../img/touch-icon-ipad.png", :sizes => "72x72"}
+    %meta{:name => "description",      :content => "1List, fast and simple reminders."}
+    %meta{:name => "viewport",         :content => "width=device-width"}
+    %meta{:name => "apple-itunes-app", :content => "app-id=579440241"}
+  %body
+    %nav.general
+      %ul
+        %li
+          %a{:href => "http://www.studioamanga.com/"}
+            %img{:alt => "StdAMG", :src => "img/icon-amg.png"}
+            %span Studio AMANgA
+        %li
+          %a{:href => "http://www.studioamanga.com/contacts/"}
+            %img{:alt => "Contacts", :src => "img/icon-contacts.png"}
+            %span Contact[s]
+        %li
+          %a{:href => "http://www.studioamanga.com/comicbookday/"}
+            %img{:alt => "Comic Book Day", :src => "img/icon-comicbookday.png"}
+            %span Comic Book Day
+        %li
+          %a{:href => "http://www.studioamanga.com/gameskeeper/"}
+            %img{:alt => "Games Keeper", :src => "img/icon-gameskeeper.png"}
+            %span Games Keeper
+
+    %header.top
+      %div.title
+        %img.icon{:alt => "Icon", :src => "img/icon-72-2x.png"}
+        %h1 1List
+      %div
+        %img.showcase{:alt => "Screens", :src => "img/screens.png"}
+
+    %section.main
+      %div.tagline
+        Don’t waste time.
+        %br
+        When you need to remember things, it has to be fast and simple.
+      %div.feature
+        %h3 Autocomplete
+        %img{:src => "img/icon-lightning-bolt.png", :alt => "Fast"}
+        %p 
+          Blazingly efficient. 
+          %br
+          1List helps you create new reminders based on your previous entries. 
+          %br
+          The more you use it, the faster it gets.
+      %div.feature
+        %h3 iCloud Reminders
+        %img{:src => "img/icon-cloud.png", :alt => "Cloud"}
+        %p 
+          Always in sync. 
+          %br
+          1List is directly integrated with your Apple iCloud Reminders. No need to create a new account, your reminders are available on all your devices.
+      %div.feature
+        %h3 Works with Siri
+        %img{:src => "img/icon-chat.png", :alt => "Siri"}
+        %p 
+          Hands free.
+          %br
+          You can simply use Siri to create new reminders.
+      %div.feature
+        %h3 Available on Apple Watch
+        %img{:src => "img/icon-watch.png", :alt => "Apple Watch"}
+        %p 
+          Coming soon: the missing app. 
+          %br
+          1List brings all your reminders to the Apple Watch. You can also add new entries right from your wrist.
+
+      %p.download
+        %a{:href => "https://itunes.apple.com/app/comic-book-day/id579440241?mt=8"}
+          %img{:alt => "Download on the App Store", :src => "img/download-appstore.svg"}/
+
+    %footer
+      %a{:href => "http://www.studioamanga.com"}
+        %img{:alt => "StdAMG", :src => "img/amgmini-black.png"}/
+      %p
+        “1List” for iPhone, iPad, iPod touch, and Apple Watch
+        %br
+        %a{:href => "releasenotes"} Release Notes
+        %br
+        Made by Studio AMANgA 2012-2015
+    
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18279263-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();

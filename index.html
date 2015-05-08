@@ -1,128 +1,125 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>1List - Fast &amp; Simple To-Do app for iPhone and iPad</title>
-        <link rel="stylesheet" type="text/css" href="onelist.css?val" />
-        <link rel="shortcut icon" href="http://www.studioamanga.com/img/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" href="../img/touch-icon-iphone4.png" />
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/touch-icon-ipad.png" />
-        <meta name="description" content="1List, fast and simple reminders." />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="apple-itunes-app" content="app-id=579440241">
-        <script type="text/javascript">
-/* <![CDATA[ */
-        setInterval(alternateScreenshots, 5000);
-        function alternateScreenshots()
-        {
-            screenshot = document.getElementById('screenshothome');
-            if (screenshot.style.opacity == '1')
-                screenshot.style.opacity = '0';
-            else
-                screenshot.style.opacity = '1';
-        }
-/* ]]> */
-        </script>
-    </head>
-    <body>
-        <header class='general'>
-          <nav>
-            <ul>
-              <li>
-                <a href='http://www.studioamanga.com/'>
-                  <img alt='StdAMG' src='img/icon-amg.png?val'>
-                  <span>Studio AMANgA</span>
-                </a>
-              </li>
-              <li>
-                <a href='http://www.studioamanga.com/comicbookday/'>
-                  <img alt='Comic Book Day' src='img/icon-comicbookday.png?va'>
-                  <span>Comic Book Day</span>
-                </a>
-              </li>
-              <li>
-                <a href='http://www.studioamanga.com/contacts/'>
-                  <img alt='Contacts' src='img/icon-contacts.png?va'>
-                  <span>Contact[s]</span>
-                </a>
-              </li>
-              <li>
-                <a href='http://www.studioamanga.com/gameskeeper/'>
-                  <img alt='Games Keeper' src='img/icon-gameskeeper.png?va'>
-                  <span>Games Keeper</span>
-                </a>
-              </li>
-              <li>
-                <a href='http://www.studioamanga.com/wizbox/'>
-                  <img alt='WizBox' src='img/icon-wizbox.png?va'>
-                  <span>WizBox</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <header class="top">
-            <img src="img/icon-72-2x.png" class="icon" alt="Icon" />
-            <h1>1List</h1>
-        </header>
-        <section id="main">
-            <section id="screenshots">
-                <img src="img/screen-2-ip5.png" alt="Add Screenshot" />
-                <img src="img/screen-1-ip5.png" alt="Home Screenshot" id="screenshothome" />
-            </section>
-            <section id="features">
-                <header class="insert">
-                    <img src="img/icon-72-2x.png" class="icon" alt="Icon" />
-                    <h1>1List</h1>
-                </header>
-                <h2>Fast and Simple.</h2>
-                <p>
-                    Don’t waste time.<br />
-                    If you need to remember things, it has to be fast and simple.<br/>
-                    1List is made for you.
-                </p>
-                <ul>
-                    <li>
-                        <img src="img/icon-lightning-bolt.png" alt="Fast" />
-                        <em>Autocomplete</em>
-                        <p>Blazingly efficient. 1List helps you create new reminders based on your previous entries. The more you use it, the faster it gets.</p>
-                    </li>
-                    <li>
-                        <img src="img/icon-cloud.png" alt="Sync" />
-                        <em>iCloud Reminders</em>
-                        <p>Always in sync. 1List directly integrates with iCloud Reminders. You don’t need to create a new account, your reminders are available on all your devices.</p>
-                    </li>
-                    <li>
-                        <img src="img/icon-chat.png" alt="Micro"/>
-                        <em>Works with Siri</em>
-                        <p>Hands free. You can simply use Siri to create new reminders.</p>
-                    </li>
-                </ul>
-                <a href="https://itunes.apple.com/app/1list-fast-simple/id579440241?ls=1&amp;mt=8" class="download">
-                    <img src="img/download-appstore.svg" alt="Download"/>
-                </a>
-            </section>
-        </section>
-        <footer>
-            <a href="http://www.studioamanga.com"><img src="img/amgmini-black.png" alt="StdAMG" /></a>
-            <p>
-                “1List” for iPhone, iPod touch, and iPad<br />
-                <a href="releasenotes">Release Notes</a><br />
-                <a href="http://www.studioamanga.com">Studio&nbsp;AMANgA</a> 2012-2015
-            </p>
-        </footer>
-        <script type="text/javascript">
-/* <![CDATA[ */
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-18279263-1']);
-          _gaq.push(['_trackPageview']);
-        
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
-/* ]]> */
-        </script>
-    </body>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>1List for iPhone, iPad, and Apple Watch</title>
+    <link href='style.css?val' rel='stylesheet' type='text/css'>
+    <link href='http://www.studioamanga.com/img/favicon.ico' rel='shortcut icon'>
+    <link href='../img/touch-icon-iphone4.png' rel='apple-touch-icon-precomposed'>
+    <link href='../img/touch-icon-ipad.png' rel='apple-touch-icon-precomposed' sizes='72x72'>
+    <meta content='1List, fast and simple reminders.' name='description'>
+    <meta content='width=device-width' name='viewport'>
+    <meta content='app-id=579440241' name='apple-itunes-app'>
+  </head>
+  <body>
+    <nav class='general'>
+      <ul>
+        <li>
+          <a href='http://www.studioamanga.com/'>
+            <img alt='StdAMG' src='img/icon-amg.png'>
+            <span>Studio AMANgA</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/contacts/'>
+            <img alt='Contacts' src='img/icon-contacts.png'>
+            <span>Contact[s]</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/comicbookday/'>
+            <img alt='Comic Book Day' src='img/icon-comicbookday.png'>
+            <span>Comic Book Day</span>
+          </a>
+        </li>
+        <li>
+          <a href='http://www.studioamanga.com/gameskeeper/'>
+            <img alt='Games Keeper' src='img/icon-gameskeeper.png'>
+            <span>Games Keeper</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <header class='top'>
+      <div class='title'>
+        <img alt='Icon' class='icon' src='img/icon-72-2x.png'>
+        <h1>1List</h1>
+      </div>
+      <div>
+        <img alt='Screens' class='showcase' src='img/screens.png'>
+      </div>
+    </header>
+    <section class='main'>
+      <div class='tagline'>
+        Don’t waste time.
+        <br>
+        When you need to remember things, it has to be fast and simple.
+      </div>
+      <div class='feature'>
+        <h3>Autocomplete</h3>
+        <img alt='Fast' src='img/icon-lightning-bolt.png'>
+        <p>
+          Blazingly efficient.
+          <br>
+          1List helps you create new reminders based on your previous entries.
+          <br>
+          The more you use it, the faster it gets.
+        </p>
+      </div>
+      <div class='feature'>
+        <h3>iCloud Reminders</h3>
+        <img alt='Cloud' src='img/icon-cloud.png'>
+        <p>
+          Always in sync.
+          <br>
+          1List is directly integrated with your Apple iCloud Reminders. No need to create a new account, your reminders are available on all your devices.
+        </p>
+      </div>
+      <div class='feature'>
+        <h3>Works with Siri</h3>
+        <img alt='Siri' src='img/icon-chat.png'>
+        <p>
+          Hands free.
+          <br>
+          You can simply use Siri to create new reminders.
+        </p>
+      </div>
+      <div class='feature'>
+        <h3>Available on Apple Watch</h3>
+        <img alt='Apple Watch' src='img/icon-watch.png'>
+        <p>
+          Coming soon: the missing app.
+          <br>
+          1List brings all your reminders to the Apple Watch. You can also add new entries right from your wrist.
+        </p>
+      </div>
+      <p class='download'>
+        <a href='https://itunes.apple.com/app/comic-book-day/id579440241?mt=8'>
+          <img alt='Download on the App Store' src='img/download-appstore.svg'>
+        </a>
+      </p>
+    </section>
+    <footer>
+      <a href='http://www.studioamanga.com'>
+        <img alt='StdAMG' src='img/amgmini-black.png'>
+      </a>
+      <p>
+        “1List” for iPhone, iPad, iPod touch, and Apple Watch
+        <br>
+        <a href='releasenotes'>Release Notes</a>
+        <br>
+        Made by Studio AMANgA 2012-2015
+      </p>
+    </footer>
+    <script>
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-18279263-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
 </html>
