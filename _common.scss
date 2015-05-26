@@ -67,6 +67,15 @@ header {
   background-color: $main-color;
   color: white;
 
+  &.cropped-bottom {
+    padding-bottom: 0;
+    overflow: hidden;
+
+    .showcase {
+      margin-bottom: -6px;
+    }
+  }
+
   .title {
     padding-bottom: $margin-default;
 
@@ -140,6 +149,15 @@ section.main {
       width: 225px;
       height: 66px;
     }
+  }
+}
+
+.screenshots {
+  text-align: center;
+  margin: $margin-big $margin-default 0 $margin-default;
+
+  img {
+    padding: $margin-default;
   }
 }
 
