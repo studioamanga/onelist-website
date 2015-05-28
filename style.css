@@ -45,6 +45,11 @@ header {
   text-align: center;
   background-color: #5693DB;
   color: white; }
+  header.cropped-bottom {
+    padding-bottom: 0;
+    overflow: hidden; }
+    header.cropped-bottom .showcase {
+      margin-bottom: -6px; }
   header .title {
     padding-bottom: 20px; }
     header .title .icon,
@@ -78,7 +83,7 @@ section.main {
   section.main .feature {
     position: relative;
     display: inline-block;
-    max-width: 380px;
+    width: 380px;
     vertical-align: top;
     margin: 0 20px 20px 20px; }
     section.main .feature h3, section.main .feature p {
@@ -97,6 +102,12 @@ section.main {
     section.main .download img {
       width: 225px;
       height: 66px; }
+
+.screenshots {
+  text-align: center;
+  margin: 40px 20px 0 20px; }
+  .screenshots img {
+    padding: 20px; }
 
 footer {
   margin: 80px auto 40px auto;
@@ -130,6 +141,6 @@ footer {
   section.main {
     max-width: inherit; }
     section.main .feature {
-      max-width: inherit; } }
+      width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
