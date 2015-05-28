@@ -211,7 +211,8 @@ footer {
     max-width: inherit;
 
     .feature {
-      width: 90%;
+      width: inherit;
+      display: block;
     }
   }
 }

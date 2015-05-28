@@ -141,6 +141,7 @@ footer {
   section.main {
     max-width: inherit; }
     section.main .feature {
-      width: 90%; } }
+      width: inherit;
+      display: block; } }
 
 /*# sourceMappingURL=style.css.map */
