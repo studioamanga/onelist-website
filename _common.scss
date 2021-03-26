@@ -11,58 +11,38 @@ $margin-big: 40px;
 }
 
 body {
-  font-family: system-ui, -apple-system, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+  font-family: system-ui, -apple-system, Arial, sans-serif;
   margin: 0px;
   background-color: var(--background-color);
   color: var(--text-color);
+  text-align: center;
 }
 
 nav.general {
-  display: block;
-  text-align:center;
+  height: 30px;
   background-color: black;
-  color: white;
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 0.9em;
 
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  a {
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    height: 30px;
+    color: white;
+    text-decoration: none;
+  
+    img {
+      margin-right: 6px;
+      height: 22px;
+      position: relative;
+      top: 4px;
+    }
 
-    li {
-      display: inline-block;
+    span {
+      position: relative;
+      top: -1px;
+    }
 
-      a {
-        display: block;
-        padding: 6px 17px 6px 17px;
-        color: white;
-        text-decoration: none;
-        vertical-align: top;
-
-        span, img {
-          display: inline-block;
-          vertical-align: top;
-          height: 22px;
-        }
-        span {
-          position: relative;
-          top: 3px;
-        }
-        img {
-          margin-right: 4px;
-          border-radius: 4px;
-        }
-
-        &:HOVER {
-          background-color: #333;
-        }
-      }
-
-      &:first-child {
-        display: inline-block;
-      }
+    &:HOVER {
+      background-color: #333;
     }
   }
 }
@@ -105,7 +85,7 @@ header {
     h1 {
       padding-left: 10px;
       position: relative;
-      top: 10px;
+      top: 7px;
       font-size: 3em;
     }
   }
@@ -128,11 +108,17 @@ section.main {
     margin: 0 $margin-default $margin-big $margin-default;
   }
 
+  blockquote {
+    text-align: left;
+    margin-left: 0;
+  }
+
   .feature {
     position: relative;
     display: inline-block;
     width: 380px;
     vertical-align: top;
+    text-align: left;
     margin: 0 $margin-default $margin-default $margin-default;
 
     h3, p {
@@ -170,22 +156,33 @@ section.main {
   }
 }
 
+
 footer {
-  margin: $margin-big*2 auto $margin-big auto;
+  display: inline-block;
+  margin: $margin-big auto $margin-big auto;
   padding: 0 $margin-default;
-  max-width: 400px;
   color: #888;
+  text-align: left;
   font-size: 0.8em;
-  line-height: 1.2em;
+  line-height: 1.8em;
   
+  p {
+    a {
+      text-decoration: underline;
+    }
+  }
+
   a {
     color: #888;
     text-decoration: none;
     
     img {
+      margin-right: 10px;
       opacity: 0.35;
       width: 50px;
+      text-decoration: none;
     }
+
     &:HOVER {
       color: #444;
       
@@ -204,18 +201,6 @@ footer {
 }
 
 @media all and (max-width: $max-width) {
-  nav.general {
-    ul {
-      li {
-        display: none;
-
-        &:first-child {
-          display: inline-block;
-        }
-      }
-    }
-  }
-
   section.main {
     max-width: inherit;
 
@@ -245,6 +230,10 @@ footer {
     img {
       -webkit-filter: invert(1);
       filter: invert(1);
+    }
+
+    a:HOVER {
+      color: #bbb;
     }
   }
 }
