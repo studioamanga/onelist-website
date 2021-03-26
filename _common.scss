@@ -127,12 +127,14 @@ section.main {
       line-height: 1.45em;
     }
 
-    img {
+    .bulleticon {
       position: absolute;
-      top: 2px;
+      top: -6px;
       left: 0;
-      width: 28px;
-      height: 28px;
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+      font-weight: lighter;
     }
   }
 
