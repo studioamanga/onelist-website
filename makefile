@@ -1,8 +1,8 @@
 all:
 	haml -f html5 index.html.haml index.html
 	sass style.scss:style.css
-	git -C ../../../Projects/onelist/ pull
-	cp ../../../Projects/onelist/releasenotes.html .
+	git -C ~/Developer/onelist/ pull
+	cp ~/Developer/onelist/releasenotes.html .
 	open .
 	open /Applications/Cyberduck.app
 	
