@@ -3,6 +3,7 @@ all:
 	sass style.scss:style.css
 	git -C ~/Developer/onelist/ pull
 	cp ~/Developer/onelist/releasenotes.html .
+	cp ~/Developer/onelist/releasenotes.json .
 	open .
 	open /Applications/Cyberduck.app
 	
