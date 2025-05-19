@@ -1,1 +1,1051 @@
-{"versions":[{"items":[{"status":"unknown","state":"unknown","title":"Optimized for iOS 17, iPadOS 17, watchOS 10 and macOS 14"},{"state":"unknown","status":"unknown","title":"Add quick list selection menu"},{"state":"unknown","title":"Add keyboard shortcuts","status":"unknown"},{"status":"unknown","state":"unknown","title":"Fix loading indicator Dark Mode support"},{"status":"unknown","title":"Fix app name display (macOS)","state":"unknown"},{"title":"Fix sandboxing configuration for reminders (macOS)","state":"unknown","status":"unknown"}],"createdDate":{"day":29,"year":2023,"month":9},"title":"3.1.4"},{"items":[{"state":"unknown","status":"unknown","title":"Optimized for iPadOS 16 and macOS 13"},{"title":"Add App Shortcuts (iOS 16, iPadOS 16)","status":"unknown","state":"unknown"},{"status":"unknown","state":"unknown","title":"Add Lock Screen widget to add new reminder (iOS 16)"},{"title":"Require iOS 14","state":"unknown","status":"unknown"}],"title":"3.1.3","createdDate":{"day":6,"year":2022,"month":11}},{"createdDate":{"month":9,"year":2022,"day":15},"items":[{"state":"unknown","status":"major","title":"Optimized for iOS 16 and watchOS 9"},{"status":"unknown","title":"Clarify “Add List” buttons","state":"unknown"},{"title":"New Mac toolbar","state":"unknown","status":"unknown"},{"state":"unknown","status":"unknown","title":"Code optimizations"},{"state":"unknown","status":"unknown","title":"Require watchOS 5"}],"title":"3.1.2"},{"title":"3.1.1","items":[{"title":"Add Version History","status":"unknown","state":"unknown"},{"title":"Fix About window (macOS)","state":"unknown","status":"unknown"}],"createdDate":{"month":4,"day":23,"year":2022}},{"items":[{"state":"unknown","title":"Edit list color (iOS 14, macOS 11)","status":"unknown"},{"state":"unknown","title":"Update settings interface to reflect current list color","status":"unknown"},{"status":"unknown","title":"Update macOS icon","state":"unknown"},{"title":"Fix title capitalization for French localization","status":"unknown","state":"unknown"}],"title":"3.1","createdDate":{"day":6,"year":2022,"month":3}},{"title":"3.0","items":[{"state":"unknown","title":"New interface with white background, color based on current list","status":"major"},{"title":"Optimized for iOS 15, iPadOS 15, and watchOS 8","status":"major","state":"unknown"},{"status":"unknown","title":"Rename Settings to Lists","state":"unknown"},{"status":"unknown","state":"unknown","title":"Bottom sheet for Lists screen"},{"state":"unknown","status":"unknown","title":"Keyboard navigation (iPadOS 15)"},{"status":"unknown","state":"unknown","title":"Requires iOS 13, iPadOS 13"}],"createdDate":{"year":2021,"month":10,"day":21}},{"title":"2.5.7","items":[{"state":"unknown","status":"unknown","title":"Fix loading unknown calendar"},{"title":"Fix crash when marking items as done","status":"unknown","state":"unknown"}],"createdDate":{"year":2021,"month":6,"day":27}},{"items":[{"state":"unknown","title":"Automatically reload when reminders have changed","status":"unknown"},{"state":"unknown","title":"Apple Script support","status":"unknown"},{"state":"unknown","status":"unknown","title":"Improve checkboxes touch target"}],"createdDate":{"month":4,"year":2021,"day":29},"title":"2.5.6"},{"createdDate":{"day":20,"month":12,"year":2020},"items":[{"title":"Optimized for iOS 14","status":"major","state":"unknown"},{"title":"Update settings icon (iOS 14)","state":"unknown","status":"unknown"},{"status":"major","state":"unknown","title":"Optimized for macOS Big Sur"},{"status":"unknown","state":"unknown","title":"Update About window (macOS)"},{"title":"Move Contact Support to Help menu (macOS)","state":"unknown","status":"unknown"},{"status":"unknown","title":"Update privacy dialog","state":"unknown"}],"title":"2.5.5"},{"title":"2.5.4","createdDate":{"year":2020,"month":9,"day":25},"items":[{"title":"Add About screen to Settings screen (macOS)","state":"unknown","status":"unknown"},{"status":"unknown","title":"Fix iOS 12 compatibility","state":"unknown"}]},{"title":"2.5.3","createdDate":{"year":2020,"month":7,"day":22},"items":[{"state":"unknown","title":"Add keyboard shortcuts (add new reminder, open settings)","status":"unknown"},{"state":"unknown","title":"Trim white spaces from new reminder title","status":"unknown"},{"state":"unknown","title":"In-app mail composer (macOS)","status":"unknown"}]},{"createdDate":{"day":22,"year":2020,"month":6},"title":"2.5.2","items":[{"state":"unknown","status":"major","title":"macOS version"},{"state":"unknown","status":"unknown","title":"Update App Store review request criteria"},{"title":"Update About screen close button","state":"unknown","status":"unknown"}]},{"items":[{"status":"unknown","title":"Sort reminders by priority on Apple Watch","state":"unknown"},{"status":"unknown","title":"Highlight high\/low priority reminders on Apple Watch","state":"unknown"},{"title":"Improve list selection reliability on Apple Watch","status":"unknown","state":"unknown"},{"state":"unknown","title":"Adjust checkboxes appearance","status":"unknown"}],"createdDate":{"month":4,"day":23,"year":2020},"title":"2.5.1"},{"title":"2.5","items":[{"state":"unknown","status":"major","title":"Sort reminders by priority"},{"title":"Highlight high\/low priority reminders","state":"unknown","status":"major"},{"status":"major","state":"unknown","title":"Set reminders priority"},{"title":"Improve Dynamic Type support","state":"unknown","status":"unknown"}],"createdDate":{"month":4,"year":2020,"day":7}},{"createdDate":{"day":29,"year":2019,"month":10},"title":"2.4.1","items":[{"title":"Limit suggestions to reminders completed less than one year ago, to improve performances","status":"unknown","state":"unknown"},{"status":"unknown","state":"unknown","title":"Improve Dark Mode support"},{"state":"unknown","status":"unknown","title":"Update About screen"}]},{"createdDate":{"day":13,"year":2019,"month":9},"title":"2.4","items":[{"state":"unknown","status":"major","title":"Optimized for iOS 13"},{"title":"Dark Mode support","status":"major","state":"unknown"},{"title":"Text field at the bottom","status":"major","state":"unknown"},{"status":"unknown","state":"unknown","title":"Improve Dynamic Type support"},{"title":"Update Settings, About screens","state":"unknown","status":"unknown"},{"title":"Update to Swift 5","state":"unknown","status":"unknown"},{"title":"Require iOS 11","state":"unknown","status":"unknown"}]},{"items":[{"status":"unknown","state":"unknown","title":"Optimized for new iPad Pro (2018)"}],"title":"2.3.1"},{"items":[{"title":"Optimized for iOS 12","state":"unknown","status":"major"},{"title":"Add “New Item” Siri Shortcut","status":"unknown","state":"unknown"},{"status":"unknown","title":"Add haptic feedback on check event","state":"unknown"}],"createdDate":{"year":2018,"day":29,"month":9},"title":"2.3"},{"title":"2.2","items":[{"state":"unknown","title":"Standalone Apple Watch app (requires watchOS 4)","status":"major"},{"state":"unknown","status":"unknown","title":"Improve Dynamic Type support"}],"createdDate":{"year":2018,"month":3,"day":14}},{"title":"2.1","items":[{"title":"Update interface for iOS 11","status":"major","state":"unknown"},{"status":"unknown","title":"Support native App Store review request","state":"unknown"},{"title":"Update layout for First Launch screen","state":"unknown","status":"unknown"},{"state":"unknown","status":"unknown","title":"Fix layout for First Launch view controller"},{"title":"Request App Store review only when all reminders are marked as completed","state":"unknown","status":"unknown"},{"title":"Require iOS 9","state":"unknown","status":"unknown"}],"createdDate":{"year":2017,"month":9,"day":28}},{"title":"2.0.3","items":[{"title":"Suggestion table content inset with visible keyboard","state":"unknown","status":"unknown"}],"createdDate":{"month":2,"year":2017,"day":1}},{"title":"2.0.2","createdDate":{"day":6,"year":2017,"month":1},"items":[{"state":"unknown","status":"unknown","title":"Built with iOS 10 SDK"}]},{"items":[{"status":"unknown","state":"unknown","title":"Optimized for iPad Pro"},{"state":"unknown","title":"Fixed crash at launch with iOS 8","status":"unknown"},{"state":"unknown","title":"Updated icons for Comic Book Day and Games Keeper","status":"unknown"}],"createdDate":{"month":3,"day":12,"year":2016},"title":"2.0.1"},{"createdDate":{"year":2015,"month":10,"day":5},"items":[{"title":"New interface","state":"unknown","status":"major"},{"status":"major","state":"unknown","title":"New icon"},{"title":"Optimized for iOS 9","status":"major","state":"unknown"},{"status":"unknown","title":"Added Split View support","state":"unknown"},{"status":"unknown","state":"unknown","title":"Added Quick Action to create new reminders"},{"state":"unknown","status":"unknown","title":"Added Handoff support"},{"status":"unknown","state":"unknown","title":"Requires iOS 8"}],"title":"2.0"},{"createdDate":{"year":2015,"day":25,"month":6},"title":"1.7.2","items":[{"state":"unknown","title":"Fixed Delete button on suggestions list","status":"unknown"}]},{"title":"1.7.1","items":[{"title":"Added Apple Watch Glance","status":"unknown","state":"unknown"},{"status":"unknown","title":"Updated Apple Watch interface with two lines for items","state":"unknown"},{"title":"Fixed changing list refresh on Apple Watch","state":"unknown","status":"unknown"}],"createdDate":{"month":5,"year":2015,"day":27}},{"title":"1.7","createdDate":{"month":5,"year":2015,"day":12},"items":[{"title":"Added Apple Watch application","state":"unknown","status":"major"},{"status":"unknown","title":"Updated list to keep items marked as completed for 1 hour","state":"unknown"}]},{"createdDate":{"year":2015,"month":4,"day":25},"items":[{"title":"Reloads reminders when entering foreground","state":"unknown","status":"unknown"},{"state":"unknown","title":"Removed custom crash reporting","status":"unknown"}],"title":"1.6.1"},{"title":"1.6","items":[{"state":"unknown","status":"major","title":"Editable lists"},{"title":"Added color indicator on lists","state":"unknown","status":"unknown"}],"createdDate":{"month":2,"day":17,"year":2015}},{"createdDate":{"year":2014,"month":10,"day":8},"title":"1.5","items":[{"title":"Optimized for iOS 8","state":"unknown","status":"major"},{"state":"unknown","status":"major","title":"Optimized for iPhone 6 and iPhone 6 Plus"},{"title":"Added “Go to Privacy Settings” button","state":"unknown","status":"unknown"}]},{"createdDate":{"year":2014,"month":5,"day":21},"items":[{"status":"unknown","state":"unknown","title":"Fixed item selection color on edges"},{"state":"unknown","title":"Fixed welcome and rejected screens","status":"unknown"}],"title":"1.4.2"},{"title":"1.4.1","items":[{"state":"unknown","status":"unknown","title":"Improved user interface for progress HUD"},{"title":"Changed checkmark color in settings to blue","status":"unknown","state":"unknown"}],"createdDate":{"month":3,"day":22,"year":2014}},{"title":"1.4","items":[{"title":"Improved user interface for iOS 7","status":"unknown","state":"unknown"},{"state":"unknown","status":"unknown","title":"Hide already added items from auto-complete"}],"createdDate":{"year":2014,"month":2,"day":8}},{"createdDate":{"year":2013,"day":17,"month":10},"title":"1.3.1","items":[{"state":"unknown","status":"unknown","title":"Fixed caret color"}]},{"title":"1.3","items":[{"title":"New interface for iOS 7","state":"unknown","status":"major"},{"state":"unknown","title":"Bug fixes","status":"unknown"}],"createdDate":{"year":2013,"month":9,"day":18}},{"createdDate":{"year":2013,"month":7,"day":28},"title":"1.2.4","items":[{"status":"unknown","state":"unknown","title":"Bug fixes"}]},{"title":"1.2.3","items":[{"state":"unknown","status":"unknown","title":"Bug fixes"}],"createdDate":{"year":2013,"month":6,"day":23}},{"title":"1.2.2","createdDate":{"day":14,"month":6,"year":2013},"items":[{"title":"Improved user interface","status":"unknown","state":"unknown"}]},{"items":[{"title":"Bug fixes","status":"unknown","state":"unknown"}],"title":"1.2.1","createdDate":{"year":2013,"day":3,"month":5}},{"title":"1.2","items":[{"state":"unknown","title":"Added Chinese localization","status":"major"},{"title":"New items now appear on top of the list","status":"unknown","state":"unknown"}],"createdDate":{"month":2,"year":2013,"day":19}},{"createdDate":{"day":15,"year":2012,"month":12},"title":"1.1.1","items":[{"status":"unknown","title":"Improved performances","state":"unknown"},{"status":"unknown","state":"unknown","title":"Bug fixes"}]},{"title":"1.1","items":[{"state":"unknown","status":"major","title":"Added French localization"},{"title":"Improved user interface","status":"unknown","state":"unknown"}],"createdDate":{"day":14,"month":12,"year":2012}},{"title":"1.0","items":[{"state":"unknown","title":"Initial release","status":"major"}],"createdDate":{"month":12,"year":2012,"day":4}}],"website":"https:\/\/www.studioamanga.com\/onelist","title":"1List"}
+{
+  "title" : "1List",
+  "versions" : [
+    {
+      "createdDate" : {
+        "day" : 7,
+        "month" : 12,
+        "year" : 2024
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Optimized for iOS 18, iPadOS 18, watchOS 11 and macOS 15"
+        }
+      ],
+      "title" : "3.1.5"
+    },
+    {
+      "createdDate" : {
+        "day" : 29,
+        "month" : 9,
+        "year" : 2023
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Optimized for iOS 17, iPadOS 17, watchOS 10 and macOS 14"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add quick list selection menu"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add keyboard shortcuts"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix loading indicator Dark Mode support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix app name display (macOS)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix sandboxing configuration for reminders (macOS)"
+        }
+      ],
+      "title" : "3.1.4"
+    },
+    {
+      "createdDate" : {
+        "day" : 6,
+        "month" : 11,
+        "year" : 2022
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Optimized for iPadOS 16 and macOS 13"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add App Shortcuts (iOS 16, iPadOS 16)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add Lock Screen widget to add new reminder (iOS 16)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Require iOS 14"
+        }
+      ],
+      "title" : "3.1.3"
+    },
+    {
+      "createdDate" : {
+        "day" : 15,
+        "month" : 9,
+        "year" : 2022
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 16 and watchOS 9"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Clarify “Add List” buttons"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "New Mac toolbar"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Code optimizations"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Require watchOS 5"
+        }
+      ],
+      "title" : "3.1.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 23,
+        "month" : 4,
+        "year" : 2022
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add Version History"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix About window (macOS)"
+        }
+      ],
+      "title" : "3.1.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 6,
+        "month" : 3,
+        "year" : 2022
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Edit list color (iOS 14, macOS 11)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update settings interface to reflect current list color"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update macOS icon"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix title capitalization for French localization"
+        }
+      ],
+      "title" : "3.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 21,
+        "month" : 10,
+        "year" : 2021
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "New interface with white background, color based on current list"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 15, iPadOS 15, and watchOS 8"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Rename Settings to Lists"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Bottom sheet for Lists screen"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Keyboard navigation (iPadOS 15)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Requires iOS 13, iPadOS 13"
+        }
+      ],
+      "title" : "3.0"
+    },
+    {
+      "createdDate" : {
+        "day" : 27,
+        "month" : 6,
+        "year" : 2021
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix loading unknown calendar"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix crash when marking items as done"
+        }
+      ],
+      "title" : "2.5.7"
+    },
+    {
+      "createdDate" : {
+        "day" : 29,
+        "month" : 4,
+        "year" : 2021
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Automatically reload when reminders have changed"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Apple Script support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improve checkboxes touch target"
+        }
+      ],
+      "title" : "2.5.6"
+    },
+    {
+      "createdDate" : {
+        "day" : 20,
+        "month" : 12,
+        "year" : 2020
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 14"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update settings icon (iOS 14)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for macOS Big Sur"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update About window (macOS)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Move Contact Support to Help menu (macOS)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update privacy dialog"
+        }
+      ],
+      "title" : "2.5.5"
+    },
+    {
+      "createdDate" : {
+        "day" : 25,
+        "month" : 9,
+        "year" : 2020
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add About screen to Settings screen (macOS)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix iOS 12 compatibility"
+        }
+      ],
+      "title" : "2.5.4"
+    },
+    {
+      "createdDate" : {
+        "day" : 22,
+        "month" : 7,
+        "year" : 2020
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add keyboard shortcuts (add new reminder, open settings)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Trim white spaces from new reminder title"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "In-app mail composer (macOS)"
+        }
+      ],
+      "title" : "2.5.3"
+    },
+    {
+      "createdDate" : {
+        "day" : 22,
+        "month" : 6,
+        "year" : 2020
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "macOS version"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update App Store review request criteria"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update About screen close button"
+        }
+      ],
+      "title" : "2.5.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 23,
+        "month" : 4,
+        "year" : 2020
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Sort reminders by priority on Apple Watch"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Highlight high\/low priority reminders on Apple Watch"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improve list selection reliability on Apple Watch"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Adjust checkboxes appearance"
+        }
+      ],
+      "title" : "2.5.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 7,
+        "month" : 4,
+        "year" : 2020
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Sort reminders by priority"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Highlight high\/low priority reminders"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Set reminders priority"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improve Dynamic Type support"
+        }
+      ],
+      "title" : "2.5"
+    },
+    {
+      "createdDate" : {
+        "day" : 29,
+        "month" : 10,
+        "year" : 2019
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Limit suggestions to reminders completed less than one year ago, to improve performances"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improve Dark Mode support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update About screen"
+        }
+      ],
+      "title" : "2.4.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 13,
+        "month" : 9,
+        "year" : 2019
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 13"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Dark Mode support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Text field at the bottom"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improve Dynamic Type support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update Settings, About screens"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update to Swift 5"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Require iOS 11"
+        }
+      ],
+      "title" : "2.4"
+    },
+    {
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Optimized for new iPad Pro (2018)"
+        }
+      ],
+      "title" : "2.3.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 29,
+        "month" : 9,
+        "year" : 2018
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 12"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add “New Item” Siri Shortcut"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Add haptic feedback on check event"
+        }
+      ],
+      "title" : "2.3"
+    },
+    {
+      "createdDate" : {
+        "day" : 14,
+        "month" : 3,
+        "year" : 2018
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Standalone Apple Watch app (requires watchOS 4)"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improve Dynamic Type support"
+        }
+      ],
+      "title" : "2.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 28,
+        "month" : 9,
+        "year" : 2017
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Update interface for iOS 11"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Support native App Store review request"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Update layout for First Launch screen"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fix layout for First Launch view controller"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Request App Store review only when all reminders are marked as completed"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Require iOS 9"
+        }
+      ],
+      "title" : "2.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 1,
+        "month" : 2,
+        "year" : 2017
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Suggestion table content inset with visible keyboard"
+        }
+      ],
+      "title" : "2.0.3"
+    },
+    {
+      "createdDate" : {
+        "day" : 6,
+        "month" : 1,
+        "year" : 2017
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Built with iOS 10 SDK"
+        }
+      ],
+      "title" : "2.0.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 12,
+        "month" : 3,
+        "year" : 2016
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Optimized for iPad Pro"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fixed crash at launch with iOS 8"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Updated icons for Comic Book Day and Games Keeper"
+        }
+      ],
+      "title" : "2.0.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 5,
+        "month" : 10,
+        "year" : 2015
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "New interface"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "New icon"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 9"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Added Split View support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Added Quick Action to create new reminders"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Added Handoff support"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Requires iOS 8"
+        }
+      ],
+      "title" : "2.0"
+    },
+    {
+      "createdDate" : {
+        "day" : 25,
+        "month" : 6,
+        "year" : 2015
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fixed Delete button on suggestions list"
+        }
+      ],
+      "title" : "1.7.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 27,
+        "month" : 5,
+        "year" : 2015
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Added Apple Watch Glance"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Updated Apple Watch interface with two lines for items"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fixed changing list refresh on Apple Watch"
+        }
+      ],
+      "title" : "1.7.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 12,
+        "month" : 5,
+        "year" : 2015
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Added Apple Watch application"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Updated list to keep items marked as completed for 1 hour"
+        }
+      ],
+      "title" : "1.7"
+    },
+    {
+      "createdDate" : {
+        "day" : 25,
+        "month" : 4,
+        "year" : 2015
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Reloads reminders when entering foreground"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Removed custom crash reporting"
+        }
+      ],
+      "title" : "1.6.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 17,
+        "month" : 2,
+        "year" : 2015
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Editable lists"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Added color indicator on lists"
+        }
+      ],
+      "title" : "1.6"
+    },
+    {
+      "createdDate" : {
+        "day" : 8,
+        "month" : 10,
+        "year" : 2014
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iOS 8"
+        },
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Optimized for iPhone 6 and iPhone 6 Plus"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Added “Go to Privacy Settings” button"
+        }
+      ],
+      "title" : "1.5"
+    },
+    {
+      "createdDate" : {
+        "day" : 21,
+        "month" : 5,
+        "year" : 2014
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fixed item selection color on edges"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fixed welcome and rejected screens"
+        }
+      ],
+      "title" : "1.4.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 22,
+        "month" : 3,
+        "year" : 2014
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improved user interface for progress HUD"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Changed checkmark color in settings to blue"
+        }
+      ],
+      "title" : "1.4.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 8,
+        "month" : 2,
+        "year" : 2014
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improved user interface for iOS 7"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Hide already added items from auto-complete"
+        }
+      ],
+      "title" : "1.4"
+    },
+    {
+      "createdDate" : {
+        "day" : 17,
+        "month" : 10,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Fixed caret color"
+        }
+      ],
+      "title" : "1.3.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 18,
+        "month" : 9,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "New interface for iOS 7"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Bug fixes"
+        }
+      ],
+      "title" : "1.3"
+    },
+    {
+      "createdDate" : {
+        "day" : 28,
+        "month" : 7,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Bug fixes"
+        }
+      ],
+      "title" : "1.2.4"
+    },
+    {
+      "createdDate" : {
+        "day" : 23,
+        "month" : 6,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Bug fixes"
+        }
+      ],
+      "title" : "1.2.3"
+    },
+    {
+      "createdDate" : {
+        "day" : 14,
+        "month" : 6,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improved user interface"
+        }
+      ],
+      "title" : "1.2.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 3,
+        "month" : 5,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Bug fixes"
+        }
+      ],
+      "title" : "1.2.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 19,
+        "month" : 2,
+        "year" : 2013
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Added Chinese localization"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "New items now appear on top of the list"
+        }
+      ],
+      "title" : "1.2"
+    },
+    {
+      "createdDate" : {
+        "day" : 15,
+        "month" : 12,
+        "year" : 2012
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improved performances"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Bug fixes"
+        }
+      ],
+      "title" : "1.1.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 14,
+        "month" : 12,
+        "year" : 2012
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Added French localization"
+        },
+        {
+          "state" : "unknown",
+          "status" : "unknown",
+          "title" : "Improved user interface"
+        }
+      ],
+      "title" : "1.1"
+    },
+    {
+      "createdDate" : {
+        "day" : 4,
+        "month" : 12,
+        "year" : 2012
+      },
+      "items" : [
+        {
+          "state" : "unknown",
+          "status" : "major",
+          "title" : "Initial release"
+        }
+      ],
+      "title" : "1.0"
+    }
+  ],
+  "website" : "https:\/\/www.studioamanga.com\/onelist"
+}
